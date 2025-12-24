@@ -25,5 +25,5 @@ greet1("good morning").then((result)=>{
 }).then((result)=>{
     console.log(result,"successfully executed")
     return greet3(result)
-}).then((result)=> console.log(resulut,"successfully executed"))
+}).then((result)=> console.log(result,"successfully executed"))
   .catch((error)=> console.log("API failed"))
